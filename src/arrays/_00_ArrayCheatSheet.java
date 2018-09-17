@@ -28,13 +28,22 @@ public class _00_ArrayCheatSheet {
 		}
 		//8. without printing the entire array, print only the smallest number in the array
 		int small = num[0];
+		int big = num [0];
 		for (int i = 1; i < num.length; i++) {
 			if (num[i]< small){
 				small = num[i];
 			}
+		
+		if (num[i]>big){
+			big=num[i];
 		}
+		}
+		System.out.println(small);
+		System.out.println(big);
 		//9 print the entire array to see if step 8 was correct
 		
 		//10. print the largest number in the array.
+
+
 	}
 }
